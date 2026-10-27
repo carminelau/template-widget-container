@@ -1,3 +1,31 @@
+# template-widget-container
+
+Template Svelte e Rollup per sviluppare widget compatibili con il sistema dashboard Sense Square.
+
+## Mappa del repository
+
+| Percorso | Contenuto | File |
+|---|---|---:|
+| [public/](./public) | Risorse statiche pubblicate dall’applicazione. | 3 |
+| [scripts/](./scripts) | Script di supporto e automazione. | 1 |
+| [src/](./src) | Codice sorgente principale. | 5 |
+| [package-lock.json](./package-lock.json) | Configurazione o sorgente del progetto. | 1 |
+| [package.json](./package.json) | Manifest del progetto e configurazione degli strumenti. | 1 |
+| [rollup.config.js](./rollup.config.js) | Script del progetto. | 1 |
+
+## Sviluppo e utilizzo
+
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+---
+
+## Documentazione di riferimento conservata
+
 # Template widget
 
 La seguente repository serve per la creazione di widget compatibili per il nuovo sistema dashboard sviluppato da Sense Square.
